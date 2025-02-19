@@ -5,5 +5,8 @@
     "author": "davoob",
     "description": "Mod for Factorio adding two new Bacteria to the game by genetically mutating the iron and copper bacteria on Gleba.",
     "factorio_version": "2.0",
-    "dependencies": []
+    "dependencies": [
+      "base >= 2.0.7",
+      "space-age"
+    ]
   }

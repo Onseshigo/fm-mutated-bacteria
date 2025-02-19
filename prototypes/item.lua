@@ -20,8 +20,8 @@ data:extend(
             stack_size = 50,
             default_import_location = "gleba",
             weight = 1 * kg,
-            spoil_ticks = 60 * second,
-            spoil_result = wood
+            spoil_ticks = 5 * minute,
+            spoil_result = "wood"
         },
         {
             type = "item",
@@ -41,8 +41,8 @@ data:extend(
             stack_size = 50,
             default_import_location = "gleba",
             weight = 1 * kg,
-            spoil_ticks = 60 * second,
-            spoil_result = stone
+            spoil_ticks = 5 * minute,
+            spoil_result = "stone"
         }
     }
 )

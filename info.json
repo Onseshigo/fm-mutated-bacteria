@@ -1,0 +1,9 @@
+{
+    "name": "mutated-bacteria",
+    "version": "0.0.1",
+    "title": "Mutated Bacteria",
+    "author": "davoob",
+    "description": "Mod for Factorio adding two new Bacteria to the game by genetically mutating the iron and copper bacteria on Gleba.",
+    "factorio_version": "2.0",
+    "dependencies": []
+  }

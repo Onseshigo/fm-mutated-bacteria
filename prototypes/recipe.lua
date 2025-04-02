@@ -62,8 +62,7 @@ data:extend{
   results =
   {
     {type = "item", name = "wood-bacteria-mutated", amount = 4},
-    {type = "item", name = "yumako-mash", amount = 1},
-    {type = "item", name = "yumako-mash", amount = 1, probability = 0.2}
+    {type = "item", name = "yumako-mash", amount = 2, probability = 0.6},
   },
   crafting_machine_tint =
   {

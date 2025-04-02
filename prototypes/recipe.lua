@@ -24,7 +24,8 @@ data:extend{
   },
   results =
   {
-      {type = "item", name = "wood-bacteria-mutated", amount = 1, probability = 0.1 },
+      {type = "item", name = "wood-bacteria-mutated", amount = 1, probability = 0.1},
+      {type = "item", name = "uranium-235", amount = 1, probability = 0.9},
       {type = "item", name = "spoilage", amount = 5},
   },
   crafting_machine_tint =
@@ -56,12 +57,13 @@ data:extend{
   ingredients =
   {
     {type = "item", name = "wood-bacteria-mutated", amount = 1},
-    {type = "item", name = "plastic-bar", amount = 1}
+    {type = "item", name = "bioflux", amount = 1}
   },
   results =
   {
     {type = "item", name = "wood-bacteria-mutated", amount = 4},
-    {type = "item", name = "yumako-mash", amount = 1}
+    {type = "item", name = "yumako-mash", amount = 1},
+    {type = "item", name = "yumako-mash", amount = 1, probability = 0.2}
   },
   crafting_machine_tint =
   {
@@ -96,6 +98,7 @@ data:extend{
   results =
   {
       {type = "item", name = "stone-bacteria-mutated", amount = 1, probability = 0.1 },
+      {type = "item", name = "uranium-235", amount = 1, probability = 0.9},
       {type = "item", name = "spoilage", amount = 5},
   },
   crafting_machine_tint =
@@ -127,12 +130,12 @@ data:extend{
   ingredients =
   {
     {type = "item", name = "stone-bacteria-mutated", amount = 1},
-    {type = "item", name = "rocket-fuel", amount = 1}
+    {type = "item", name = "bioflux", amount = 1}
   },
   results =
   {
-    {type = "item", name = "stone-bacteria-mutated", amount = 6},
-    {type = "item", name = "jelly", amount = 10}
+    {type = "item", name = "stone-bacteria-mutated", amount = 4},
+    {type = "item", name = "jelly", amount = 1, probability = 0.96}
   },
   crafting_machine_tint =
   {

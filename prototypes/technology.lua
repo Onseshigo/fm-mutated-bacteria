@@ -2,7 +2,7 @@ data:extend{
   {
       type = "technology",
       name = "bacteria-mutation",
-      icon = "__mutated-bacteria__/graphics/icons/wood-bacteria-cultivation.png",
+      icon = "__mutated-bacteria__/graphics/icons/bacteria-cultivation-technology.png",
       icon_size = 256,
       effects =
       {

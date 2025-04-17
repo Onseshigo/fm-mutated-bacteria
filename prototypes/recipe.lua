@@ -38,7 +38,7 @@ data:extend{
 {
   type = "recipe",
   name = "wood-bacteria-mutated-cultivation",
-  icon = "__mutated-bacteria__/graphics/icons/stone-bacteria-cultivation.png",
+  icon = "__mutated-bacteria__/graphics/icons/wood-bacteria-cultivation.png",
   category = "organic",
   surface_conditions =
   {

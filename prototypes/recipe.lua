@@ -25,7 +25,7 @@ data:extend{
   results =
   {
       {type = "item", name = "wood-bacteria-mutated", amount = 1, probability = 0.1},
-      {type = "item", name = "uranium-235", amount = 1, probability = 0.9},
+      {type = "item", name = "uranium-235", amount = 1, ignored_by_productivity = 1, probability = 0.9},
       {type = "item", name = "spoilage", amount = 5},
   },
   crafting_machine_tint =
@@ -38,7 +38,7 @@ data:extend{
 {
   type = "recipe",
   name = "wood-bacteria-mutated-cultivation",
-  icon = "__mutated-bacteria__/graphics/icons/wood-bacteria-cultivation.png",
+  icon = "__mutated-bacteria__/graphics/icons/stone-bacteria-cultivation.png",
   category = "organic",
   surface_conditions =
   {
@@ -97,7 +97,7 @@ data:extend{
   results =
   {
       {type = "item", name = "stone-bacteria-mutated", amount = 1, probability = 0.1 },
-      {type = "item", name = "uranium-235", amount = 1, probability = 0.9},
+      {type = "item", name = "uranium-235", amount = 1, ignored_by_productivity = 1, probability = 0.9},
       {type = "item", name = "spoilage", amount = 5},
   },
   crafting_machine_tint =
